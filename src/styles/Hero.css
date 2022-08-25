@@ -1,0 +1,50 @@
+.hero{
+    
+    width: 100%;
+    height: 50vh;
+
+    background-color: white;
+    
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.welcome{
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    mix-blend-mode: difference;
+    margin-left: 14rem;
+    
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    opacity: 0;
+
+ 
+}
+
+@media screen and (max-width: 1000px){
+
+    .hero{
+        
+        justify-content: center;
+        
+    }
+
+    .welcome{
+        margin-left: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+
+.welcome{
+    text-align: center;
+    font-size: 26px;
+}
+}
