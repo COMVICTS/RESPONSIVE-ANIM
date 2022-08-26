@@ -13,7 +13,7 @@
 
 .welcome{
     font-family: Poppins,sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     color: white;
     mix-blend-mode: difference;
@@ -25,7 +25,7 @@
  
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 
     .hero{
         
@@ -49,7 +49,7 @@
 
 .welcome{
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
 }
 }
 

@@ -4,7 +4,7 @@ import "../styles/Hero.css"
 function Hero() {
   return (
     <div className = "hero">
-        <p className = "welcome">Creating unique brands is <br></br>  what we do .</p>
+        <p className = "welcome">Creating maximum exposure is <br></br>  what we do .</p>
 
         <svg className = "phone"  width="407.044" height="254.574" viewBox="0 0 407.044 254.574">
   <g id="Group_2" data-name="Group 2" transform="translate(-794.266 -450.91)">
